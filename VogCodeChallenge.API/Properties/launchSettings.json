@@ -22,7 +22,8 @@
       "launchBrowser": true,
       "launchUrl": "api/employees",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "VogDB_ConnectionString": "Data Source=(local);Initial Catalog=ChamsAFS;integrated security = true"
       },
       "applicationUrl": "https://localhost:5001;http://localhost:5000"
     },
@@ -32,7 +33,9 @@
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/api/employees",
       "environmentVariables": {
         "ASPNETCORE_URLS": "https://+:443;http://+:80",
-        "ASPNETCORE_HTTPS_PORT": "44377"
+        "ASPNETCORE_HTTPS_PORT": "44377",
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "VogDB_ConnectionString": "Data Source=(local);Initial Catalog=ChamsAFS;Integrated Security=false; user=sa;password=password"
       },
       "httpPort": 61188,
       "useSSL": true,
