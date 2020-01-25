@@ -10,4 +10,10 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\VogCodeChallenge.Core\VogCodeChallenge.Core.csproj" />
+    <ProjectReference Include="..\VogCodeChallenge.Data\VogCodeChallenge.Data.csproj" />
+    <ProjectReference Include="..\VogCodeChallenge.Domain\VogCodeChallenge.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

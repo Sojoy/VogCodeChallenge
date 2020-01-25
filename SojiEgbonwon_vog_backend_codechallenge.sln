@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29411.108
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VogCodeChallenge.API", "VogCodeChallenge.API\VogCodeChallenge.API.csproj", "{A254AD96-A96D-40DF-9AB2-8C4219DB525E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VogCodeChallenge.API", "VogCodeChallenge.API\VogCodeChallenge.API.csproj", "{A254AD96-A96D-40DF-9AB2-8C4219DB525E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VogCodeChallenge.Core", "VogCodeChallenge.Core\VogCodeChallenge.Core.csproj", "{E142B17A-3988-443E-944C-C3F58D2D893D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VogCodeChallenge.Data", "VogCodeChallenge.Data\VogCodeChallenge.Data.csproj", "{485C0CB1-3AD8-40DE-B8D1-B2713ED313D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VogCodeChallenge.Domain", "VogCodeChallenge.Domain\VogCodeChallenge.Domain.csproj", "{D866BE9E-A023-48DD-802A-B994CF45A242}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{A254AD96-A96D-40DF-9AB2-8C4219DB525E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A254AD96-A96D-40DF-9AB2-8C4219DB525E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A254AD96-A96D-40DF-9AB2-8C4219DB525E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E142B17A-3988-443E-944C-C3F58D2D893D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E142B17A-3988-443E-944C-C3F58D2D893D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E142B17A-3988-443E-944C-C3F58D2D893D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E142B17A-3988-443E-944C-C3F58D2D893D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{485C0CB1-3AD8-40DE-B8D1-B2713ED313D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{485C0CB1-3AD8-40DE-B8D1-B2713ED313D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{485C0CB1-3AD8-40DE-B8D1-B2713ED313D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{485C0CB1-3AD8-40DE-B8D1-B2713ED313D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D866BE9E-A023-48DD-802A-B994CF45A242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D866BE9E-A023-48DD-802A-B994CF45A242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D866BE9E-A023-48DD-802A-B994CF45A242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D866BE9E-A023-48DD-802A-B994CF45A242}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
